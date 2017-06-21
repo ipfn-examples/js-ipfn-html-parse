@@ -12,8 +12,10 @@
         "name": "Łukasz Kurowski",
         "url": "https://github.com/crackcomm"
     },
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.1"
+    },
     "devDependencies": {
-        "@ipfn/synaptic-types": "^0.0.1",
         "@types/jest": "^19.2.4",
         "jest": "^20.0.4",
         "typescript": "next"
@@ -23,8 +25,5 @@
         "test": "npm run build:tests && ./node_modules/.bin/jest",
         "build:tests": "npm run clean && ./node_modules/.bin/tsc",
         "build": "npm run clean && ./node_modules/.bin/tsc && cp README.md build/ && cp package.json build/ && rm -rf build/tests"
-    },
-    "dependencies": {
-        "cheerio": "^1.0.0-rc.1"
     }
 }
