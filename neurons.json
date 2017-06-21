@@ -1,0 +1,40 @@
+[
+  {
+    "name": "HTML",
+    "neurons": [
+      {
+        "name": "HTML",
+        "input": [
+          {
+            "name": "body",
+            "type": "string"
+          }
+        ],
+        "nodes": [
+          {
+            "name": "text",
+            "input": [
+              {
+                "name": "selector",
+                "type": "string"
+              }
+            ],
+            "output": [
+              {
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "nucleus": [
+      {
+        "name": "HTML",
+        "file": "src/index.ts",
+        "line": 8,
+        "character": 17
+      }
+    ]
+  }
+]
